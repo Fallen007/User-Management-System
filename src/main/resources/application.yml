@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:pIrU9j8HwlnC7FLm@cluster0.trcxi.mongodb.net/UserManagement?retryWrites=true&w=majority
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: adityahalder200@gmail.com
+    password: ubtwfftkyorqlctd
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    default-encoding: utf-8
